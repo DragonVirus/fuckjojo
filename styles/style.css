@@ -22,6 +22,15 @@ body {
 	font-size: 5rem;
 }
 
+.jojo {
+	margin: 5px;
+}
+
+.jojo.o {
+	position: relative;
+	top: -17px;
+}
+
 .white-area, .black-area {
 	height: 100vh;
 	display: flex;
