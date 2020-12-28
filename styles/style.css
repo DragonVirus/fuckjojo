@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+@font-face {
+  font-family: MyanmarSabe;
+  src: url(fonts/MyanmarSabae.ttf);
+}
+
+body {
+	font-family: 'Baskervville', serif;
+	margin: 0px;
+}
+
+.burmese-text {
+	font-family: MyanmarSabe;
+}
+
+.slogan {
+	font-size: 3rem;
+}
+
+.fuck-jojo {
+	font-size: 5rem;
+}
+
+.white-area, .black-area {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.item {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.black-area {
+	background: #222;
+	color: #fff;
+}
+
+.center-contents {
+	text-align: center;
+}
