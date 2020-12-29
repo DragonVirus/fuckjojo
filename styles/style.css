@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	text-decoration: none;
+	color: #FC1E27;
 }
 
 .burmese-text {
@@ -24,6 +25,7 @@ a {
 
 .slogan {
 	font-size: 3rem;
+	color: #FB27BE;
 }
 
 .info {
@@ -75,11 +77,13 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAH0lEQVQoU2
 }
 
 .btn {
-    padding: 20px 50px;
     background: #222;
     color: #fff;
     font-size: 3rem;
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background: url(../images/button.png) no-repeat center;
+    width: 300px;
+    height: 134px;
+    /*background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
 
     -webkit-animation: rainbow 1s ease infinite;
@@ -106,7 +110,11 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAH0lEQVQoU2
         0%{background-position:0% 82%}
         50%{background-position:100% 19%}
         100%{background-position:0% 82%}
-    }
+    }*/
+}
+
+.btn:hover {
+	background: url(../images/button-hover.png) no-repeat center;
 }
 
 .black-area {
